@@ -13,19 +13,19 @@ body {
 body::-webkit-scrollbar-track
 {
 	border-radius: 3px;
-	background-color: #101883;
+	background-color:  $azul-principal;
 }
 
 body::-webkit-scrollbar
 {
 	width: 8px;
-	background-color: #101883;
+	background-color:  $azul-principal;
 }
 
 body::-webkit-scrollbar-thumb
 {
 	border-radius: 2px;
-	background-color: #ffc629;
+	background-color: $amarelo;
 }
 
 header {
@@ -38,7 +38,7 @@ header {
         background-size: 100% 100%;
         height: 245px !important;
         font-size: 14px;
-        color: #101883;
+        color:  $azul-principal;
         span {
             margin: 0 2rem;
             @media #{$mq-tablet-h} {
@@ -243,7 +243,7 @@ header {
                         background-repeat: no-repeat;
                         width: 45px;
                         height: 45px;
-                        color: white;                        
+                        color: $branco;                      
                         @media #{$mq-mobile-h} {
                             height: 35px;
                         }
@@ -256,13 +256,13 @@ header {
                     background-repeat: no-repeat;
                     width: 45px;
                     height: 45px;   
-                    color: #101883 !important;                 
+                    color:  $azul-principal !important;                 
                 }
                 .white-span-conta{
-                    color: white;
+                    color: $branco;
                 }
                 .white-span-carrinho{
-                    color: #101883 !important;                   
+                    color:  $azul-principal !important;                   
                 }
             }
             .minhaconta-options {
@@ -280,6 +280,7 @@ header {
                 }
             }
             .itens-options {
+                display: none;
                 background: white;                
                 width: 280px;
                 height: 215px;
@@ -343,7 +344,7 @@ header {
                         padding: .5rem;
                         width: 120px;
                         border-radius: 4px;
-                        color: white;
+                        color: $branco;
                         text-transform: uppercase;
                         height: 35px;
                         display: flex;
@@ -358,7 +359,7 @@ header {
                         padding: .5rem;
                         width: 120px;
                         border-radius: 4px;
-                        color: white;
+                        color: $branco;
                         text-transform: uppercase;
                         height: 35px;
                         display: flex;
@@ -389,7 +390,7 @@ nav {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        background: #101883;
+        background:  $azul-principal;
         padding: .4rem 0;
         @media #{$mq-tablet-h} {
             -ms-flex-wrap: wrap;
@@ -433,7 +434,7 @@ nav {
                 width: 95px;
                 height: 85px;
             }
-            color: white;
+            color: $branco;
             font-size: 11px;
             img {
                 padding-bottom: .5rem;
@@ -523,7 +524,7 @@ nav {
                 background: white !important;
                 li {
                     background: transparent !important;
-                    color: #666666;
+                    color:  $cinza-escuro;
                     height: 35px;
                 }
             }
@@ -545,7 +546,7 @@ nav {
     }
     .white-fullbackground {
         background: white !important;
-        color: #5f3bb9 !important;
+        color: $roxo!important;
     }
 }
 
@@ -582,7 +583,7 @@ nav {
             padding-left: 4%;
         }
         height: 10vh;
-        color: #666666;
+        color:  $cinza-escuro;
         .condicoes-text {
             h2 {
                 font-size: 12px;
@@ -861,8 +862,8 @@ main {
                 padding: .1rem 1rem !important;
             }
             b {
-                color: white;
-                background: #101883;
+                color: $branco;
+                background:  $azul-principal;
                 border-radius: 50%;
                 padding: .01rem .19rem;
                 font-weight: 100;
@@ -909,7 +910,7 @@ main {
                     font-size: 13px;
                 }
                 .parcelado{
-                    color: #101883;
+                    color:  $azul-principal;
                     font-size: 13px;
                 }
                 .slider-color {
@@ -970,7 +971,7 @@ main {
                 h1 {
                     font-size: 22px;
                     font-weight: 500;
-                    color: #666666;
+                    color:  $cinza-escuro;
                 }
             }
             .mini-banners {
@@ -1038,7 +1039,7 @@ main {
         align-items: center;
         height: 10vh;
         background: #ffbd07;
-        color: white;
+        color: $branco;
         margin-top: 1rem;
         img {
             @media #{$mq-mobile-h} {
@@ -1088,8 +1089,8 @@ main {
                 font-size: 10px;
             }
             height: 40px;
-            background: #101883;
-            color: white;
+            background:  $azul-principal;
+            color: $branco;
             border-radius: 4px;
             text-transform: uppercase;
         }
@@ -1112,8 +1113,8 @@ footer {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        background: #101883;
-        color: white;
+        background:  $azul-principal;
+        color: $branco;
         -ms-flex-pack: distribute;
         justify-content: space-around;
         font-size: 12px;
