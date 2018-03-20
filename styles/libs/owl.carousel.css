@@ -1,0 +1,9 @@
+.parceiros-slider { /* fix blank or flashing items on carousel */ /* end fix */ }
+.parceiros-slider .carousel-wrap { margin: 90px auto; padding: 0 5%; width: 80%; position: relative; }
+.parceiros-slider .owl-carousel .item { position: relative; z-index: 100; -webkit-backface-visibility: hidden; }
+.parceiros-slider .owl-nav > div { margin-top: -26px; position: absolute; top: 50%; color: #cdcbcd; }
+.parceiros-slider .owl-nav i { font-size: 52px; }
+.parceiros-slider .owl-nav .owl-prev { left: -30px; }
+.parceiros-slider .owl-nav .owl-next { right: -30px; }
+
+/*# sourceMappingURL=owl.carousel.css.map */
